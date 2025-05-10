@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morais & Pinheiro Advogados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; background-color: #f4f4f4; color: #2B1D0E; }
+    header { background-color: #2B1D0E; color: white; padding: 2rem; text-align: center; }
+    header h1 { font-family: 'Playfair Display', serif; font-size: 2.5rem; }
+    nav { background-color: #1A1D2E; color: white; display: flex; justify-content: center; gap: 2rem; padding: 1rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; max-width: 1200px; margin: auto; }
+    .areas { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+    .card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .card h3 { margin-bottom: 0.5rem; }
+    .contato { background: #2B1D0E; color: white; padding: 2rem; text-align: center; }
+    .btn-whatsapp { background: #FFD700; color: white; padding: 1rem 2rem; border-radius: 30px; text-decoration: none; font-size: 1.2rem; display: inline-block; margin-top: 1rem; }
+    footer { background: #111; color: #ccc; text-align: center; padding: 1rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Morais & Pinheiro" style="max-width: 160px; display: block; margin: 0 auto 1rem;" />
+    <h1>Morais & Pinheiro Advogados</h1>
+    <p>Excelência jurídica com ética e compromisso</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#atuacao">Áreas de Atuação</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre o Escritório</h2>
+    <p>Com atuação baseada na ética, transparência e compromisso com o cliente, o escritório Morais & Pinheiro é referência em soluções jurídicas eficazes.</p>
+  </section>
+
+  <section id="atuacao">
+    <h2>Áreas de Atuação</h2>
+    <div class="areas">
+      <div class="card">
+        <h3>Direito da Família</h3>
+        <p>Divórcios, guarda, pensão alimentícia e inventários.</p>
+      </div>
+      <div class="card">
+        <h3>Direito Civil</h3>
+        <p>Contratos, indenizações e responsabilidade civil.</p>
+      </div>
+      <div class="card">
+        <h3>Direito Previdenciário</h3>
+        <p>Aposentadorias, auxílios e revisões de benefícios.</p>
+      </div>
+      <div class="card">
+        <h3>Direito do Trabalho</h3>
+        <p>Rescisões, direitos do empregado e empregador.</p>
+      </div>
+      <div class="card">
+        <h3>Direito Imobiliário</h3>
+        <p>Compra, venda, locações e regularizações.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato via WhatsApp clicando no botão abaixo:</p>
+    <a class="btn-whatsapp" href="https://wa.me/5511983693429" target="_blank">Falar com um Advogado</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Morais & Pinheiro Advogados Associados. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
